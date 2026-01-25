@@ -1,9 +1,7 @@
-// TradingViewWidget.jsx
 'use client';
 
-import useTradingViewWidget from '@/app/hooks/useTradingViewWidget';
+import useTradingViewWidget from '@/hooks/useTradingViewWidget';
 import { cn } from '@/lib/utils';
-import { Heading3 } from 'lucide-react';
 import React, { useEffect, useRef, memo } from 'react';
 
 interface TradingViewWidgetProps {
